@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Taco Cloud </title>
+</head>
+<body  >
+    <h1>Welcome to...</h1>
+    <img style="width:200px;height: 200px;"th:src="@{/images/TacoCloud.jpg}" />
+
+    <form th:action="@{/logout}" th:method="POST">
+        <input type="submit" value="Logout"/>
+    </form>
+
+
+    <br><br></br>
+    <form th:action="@{/design}" th:method="GET">
+        <input type="submit" value="design"/>
+    </form>
+
+
+</body>
+</html>
